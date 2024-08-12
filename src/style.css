@@ -1,0 +1,98 @@
+@import-normalize;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    max-width: 550;
+}
+
+nav{
+    height: 55px;
+    background-color: #F55A5A;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 27px;
+}
+
+.gray{
+    color: #918E9B;
+}
+
+.nav--icon{
+    height:24px;
+    margin-right: 7px;
+}
+.nav--title{
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 17.5px;
+    letter-spacing: -0.075em;
+}
+
+.card{
+    margin: 18px 40px;
+    display:flex;
+}
+
+.card--image{
+    object-fit: cover;
+    float: left;
+    width: 8rem;
+    height: 10.5rem;    
+    border-radius: 5px;
+    margin-right: 19px;
+}
+
+.card--locationIcon{
+    width: 0.4rem;
+    height: 0.6rem;
+    margin-right: 4px;
+}
+
+.card--info{
+    align-self: center;
+}
+
+.card--location{
+    margin-right: 12px;
+}
+
+.card--header{
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 0.75rem;
+    letter-spacing: 0.17em;
+    display:flex;
+    margin-bottom: 7px;
+}
+
+.card--title{
+    margin-bottom: 14px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.26px;
+    }
+
+.card--date{
+    font-size: 0.625rem;
+    font-weight: 700;
+    line-height: 0.75rem;
+    margin-bottom: 9px;
+}
+
+.card--divider{
+    border: 1px solid #F5F5F5;
+    margin-left: 40px;
+}
+
+.card--description{
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1rem;
+}
